@@ -1,0 +1,21 @@
+name: publish index.json to R2
+on:
+  push:
+    branches: ["main"]
+    paths: ["catalog.json", "scripts/build-catalog.mjs"]
+  workflow_dispatch:
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate and build index.json
+        run: node scripts/build-catalog.mjs
+      - name: Upload to R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@4 r2 object put notible-updates/plugins/index.json --file index.json --remote --content-type application/json
