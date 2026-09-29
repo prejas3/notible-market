@@ -63,6 +63,15 @@
       "repo": "prejas3/notible-tables",
       "minCoreVersion": "0.80.0",
       "apiVersion": "1.8"
+    },
+    {
+      "id": "notible.teams",
+      "name": "Notible Teams",
+      "author": "Notible",
+      "description": "Test version: share one project with a few invited people through the Notible Teams server. Everything is encrypted on your computer before upload; the server keeps only ciphertext and who is in which project.",
+      "repo": "prejas3/notible-teams",
+      "minCoreVersion": "0.91.2",
+      "apiVersion": "1.21"
     }
   ]
 }
