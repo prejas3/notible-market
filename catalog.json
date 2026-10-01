@@ -72,6 +72,15 @@
       "repo": "prejas3/notible-teams",
       "minCoreVersion": "0.91.2",
       "apiVersion": "1.21"
+    },
+    {
+      "id": "notible.nib",
+      "name": "Nib",
+      "author": "Notible",
+      "description": "A small helper in the corner. Click the pen nib (or press Ctrl+Shift+H when you are not typing in a note) and ask how Notible works. Answers come only from the Help and the plugins in your version, offline; questions are not saved or sent anywhere. If a feature belongs to a built-in plugin that is off, Nib says so and offers to open it in Settings.",
+      "repo": "prejas3/notible-nib",
+      "minCoreVersion": "0.92.2",
+      "apiVersion": "1.22"
     }
   ]
 }
