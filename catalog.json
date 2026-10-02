@@ -5,7 +5,7 @@
       "id": "notible.graph",
       "name": "Notible Graph",
       "author": "Notible",
-      "description": "ALPHA — a map of the workspace: every object is a dot sized by how connected it is, coloured by its type, placed near what it relates to. Titles show for the dots that carry the structure and for whatever the pointer is over. Draws three kinds of edge and keeps them apart: containment, stored [[wikilinks]], and suggested edges from shared tags and title words, drawn weaker and always saying why. Hover a dot to fade everything it has no edge to; click a type in the legend to hide it. Built to show what the sidebar tree cannot: links that cross project boundaries, objects filed under nothing, and objects about the same thing that nobody linked. The visual design is still settling.",
+      "description": "ALPHA — a map of your workspace: every note, task and project is a dot, and lines show what links to what. Good for spotting notes that nothing points to and links between projects.",
       "repo": "prejas3/notible-graph",
       "minCoreVersion": "0.80.0",
       "apiVersion": "1.8"
@@ -14,7 +14,7 @@
       "id": "notible.habits",
       "name": "Notible Habits",
       "author": "Notible",
-      "description": "Track habits without leaving the workspace: tick what is due today in the sidebar, watch the streak, and open a year heatmap to see what actually held. Daily, chosen weekdays, every N days or a weekly target. Each habit is an ordinary workspace object, so it syncs, searches and exports like everything else.",
+      "description": "Track habits in the sidebar: tick off what is due today, keep a streak, and see a year at a glance. Daily, on chosen weekdays, every few days or a weekly target.",
       "repo": "prejas3/notible-habits",
       "minCoreVersion": "0.80.0",
       "apiVersion": "1.8"
@@ -23,7 +23,7 @@
       "id": "notible.notifications",
       "name": "Notible Notifications",
       "author": "Notible",
-      "description": "An in-app trail for what Automations already fires as an OS toast. A toast is gone the moment it is missed; this keeps a short, readable log behind a bell icon in the sidebar, with an unread count and a one-click clear.",
+      "description": "A bell in the sidebar that keeps what Notible told you — reminders and automation messages — so a missed notification isn't gone. Also simple reminders: a message, a date and a time.",
       "repo": "prejas3/notible-notifications",
       "minCoreVersion": "0.80.0",
       "apiVersion": "1.10"
@@ -32,7 +32,7 @@
       "id": "notible.reportit",
       "name": "ReportIt",
       "author": "Notible",
-      "description": "Assemble chosen notes, issues and tasks — any types, any order — into one uniform report with a title you set, and print it to PDF. It never changes your notes: it lays out their titles and bodies as a coherent document with a cover, a table of contents and consistent typography. For a client or a manager, not a raw export.",
+      "description": "Turn chosen notes, tasks and issues into one tidy PDF report with a cover, contents and page numbers. Your notes stay as they are.",
       "repo": "prejas3/notible-reportit",
       "minCoreVersion": "0.80.0",
       "apiVersion": "1.14"
@@ -41,7 +41,7 @@
       "id": "notible.sync",
       "name": "Notible Sync",
       "author": "Notible",
-      "description": "Replicate this workspace between your own machines through your own Google Drive. Snapshots are encrypted on this device before upload, so neither Notible nor Google can read them. Nothing is merged and nothing is deleted behind your back.",
+      "description": "Keep this workspace the same on your own computers through your Google Drive. Everything is encrypted on your computer first, so neither Notible nor Google can read it.",
       "repo": "prejas3/notible-sync",
       "minCoreVersion": "0.80.0",
       "apiVersion": "1.7"
@@ -50,7 +50,7 @@
       "id": "notible.sync.simple",
       "name": "Notible Sync Simple",
       "author": "Notible",
-      "description": "Replicate this workspace between your own machines through your own Google Drive, with no device pairing: the encryption key is kept on your Drive, so anyone who signs in to that Google account can read and overwrite the workspace. Convenience over privacy. Use \"Notible Sync\" instead if you want the key to stay on your devices.",
+      "description": "Keep this workspace the same on your own computers through Google Drive, without pairing them. The key is kept on your Drive, so anyone who can sign in to that Google account can read the workspace.",
       "repo": "prejas3/notible-sync-simple",
       "minCoreVersion": "0.80.0",
       "apiVersion": "1.7"
@@ -59,7 +59,7 @@
       "id": "notible.tables",
       "name": "Notible Tables",
       "author": "Notible",
-      "description": "A lightweight spreadsheet-style table, kept as an ordinary workspace object. New tables start as a 3x3 grid. Select a range to copy/paste/delete or bulk bold/color it, merge cells for headers or section labels, export to CSV, and wrap long text in a column. Right-click a column header for sort, format and filter. Create one from the \"+\" menu and link it into any note with [[Table name]]; opening the link opens the full grid.",
+      "description": "Simple spreadsheets inside Notible: a grid you can sort, filter, format and fill quickly, kept as an ordinary item you can link from any note.",
       "repo": "prejas3/notible-tables",
       "minCoreVersion": "0.80.0",
       "apiVersion": "1.8"
@@ -68,7 +68,7 @@
       "id": "notible.teams",
       "name": "Notible Teams",
       "author": "Notible",
-      "description": "Test version: share one project with a few invited people through the Notible Teams server. Everything is encrypted on your computer before upload; the server keeps only ciphertext and who is in which project.",
+      "description": "Test version: share a project with a few people through the Notible Teams server. It is encrypted on your computer before it leaves.",
       "repo": "prejas3/notible-teams",
       "minCoreVersion": "0.91.2",
       "apiVersion": "1.21"
