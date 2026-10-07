@@ -20,6 +20,15 @@
       "apiVersion": "1.8"
     },
     {
+      "id": "notible.library",
+      "name": "Notible Library",
+      "author": "Notible",
+      "description": "Keep books, films, series and games in one rated collection.",
+      "repo": "prejas3/notible-library",
+      "minCoreVersion": "0.95.1",
+      "apiVersion": "1.27"
+    },
+    {
       "id": "notible.notifications",
       "name": "Notible Notifications",
       "author": "Notible",
