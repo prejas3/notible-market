@@ -47,6 +47,15 @@
       "apiVersion": "1.14"
     },
     {
+      "id": "notible.schemas",
+      "name": "Schemas",
+      "author": "Notible",
+      "description": "Build reusable title and property recipes, attach them to projects, and keep an independent counter for each project.",
+      "repo": "prejas3/notible-schemas",
+      "minCoreVersion": "0.95.1",
+      "apiVersion": "1.25"
+    },
+    {
       "id": "notible.sync",
       "name": "Notible Sync",
       "author": "Notible",
