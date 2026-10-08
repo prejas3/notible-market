@@ -23,10 +23,10 @@
       "id": "notible.library",
       "name": "Notible Library",
       "author": "Notible",
-      "description": "Keep books, films, series and games in one rated collection.",
+      "description": "Organize books, films, series and games into named libraries, with ratings, covers and Find online for books.",
       "repo": "prejas3/notible-library",
-      "minCoreVersion": "0.95.1",
-      "apiVersion": "1.27"
+      "minCoreVersion": "0.96.0",
+      "apiVersion": "1.28"
     },
     {
       "id": "notible.notifications",
